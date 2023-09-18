@@ -122,3 +122,35 @@ footer {
   font-size: 30px;
   font-family: "Courier New", monospace;
 }
+
+nav {
+  min-height: 32px;
+  height: 75px;
+}
+
+nav li {
+  float: left;
+  margin-right: 20px;
+  max-width: 250px;
+
+}
+
+nav a {
+  display: block;
+  color: #ffffff;
+  line-height: 2em;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Courier New", monospace;
+}
+
+.container {
+  display: flex;
+  border:1px solid rgb(194, 190, 194);
+  background-color: #161518;
+  height: 70px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
